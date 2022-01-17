@@ -1,0 +1,14 @@
+.content{
+    margin: 0 auto;
+    min-width: 250pt;
+    max-width: 250pt;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.fRegister{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;  
+}

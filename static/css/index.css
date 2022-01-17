@@ -1,0 +1,62 @@
+.content{
+    margin: 0 auto;
+    min-width: 250pt;
+    max-width: 250pt;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    z-index: 10;
+}
+
+.btnLogout{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;  
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  h1{
+    color:white
+  }
+  
+
+  a{
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  .showcase {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+    padding: 0 20px;
+  }
+  
+  .gif-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--primary-color) url('css/doomer-wojak.gif') no-repeat center center
+      center/center;
+  }
+  
+  .gif-container img{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(80%);
+  }
